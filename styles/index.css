@@ -1,0 +1,26 @@
+html {
+  box-sizing: content-box;
+  font-size: 10px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0px;
+  font-size: 2rem;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+main {
+  background-image: url("../assets/home/background-home-desktop.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+b {
+  font-size: 10rem;
+}
