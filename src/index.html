@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body
+    class="max-h-full text-white bg-no-repeat bg-[url('/assets/home/background-home-mobile.jpg')] bg-center bg-[length:100%_150%] w-full md:bg-[url('/assets/home/background-home-tablet.jpg')]"
+  >
+    <main>
+      <header class="mt-[50px]">
+        <nav class="flex items-center">
+          <img src="/assets/shared/logo.svg" class="ml-7" alt="" />
+          <p
+            class="hidden sm:hidden lg:block line h-[2px] bg-slate-800 w-[40%] sm:translate-x-7"
+          ></p>
+
+          <p
+            class="sm:hidden trigram -translate-x-7 relative bg-[rgba(208,212,244)] h-[4px] w-[50px] ml-auto before:contents-[''] before:absolute before:bg-[rgba(208,212,244)] before:w-[50px] before:h-[4px] before:border-orange-600 before:mt-3 after:content-[''] after:absolute after:bg-[rgba(208,212,244)] after:w-[50px] after:h-[4px] after:border-indigo-500 after:-mt-3"
+          ></p>
+          <ul
+            class="ml-auto bg-slate-900/80 hidden sm:flex justify-center w-3/5"
+          >
+            <li class="flex justify-between w-3/4">
+              <span class="p-5 home flex border-b-2"
+                ><b class="md:hidden mr-2 sm:hidden lg:inline">00</b> Home</span
+              >
+              <span class="p-5 flex hover:border-b-2 destination"
+                ><b class="md:hidden mr-2 sm:hidden lg:inline">01</b>
+                Destination</span
+              >
+              <span class="p-5 flex hover:border-b-2 crew"
+                ><b class="md:hidden sm:hidden mr-2 lg:inline">02</b> Crew</span
+              >
+              <span class="p-5 hover:border-b-2 flex technology"
+                ><b class="md:hidden mr-2 sm:hidden lg:inline">03</b>
+                Technology</span
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <article class="article flex flex-col text-center translate-y-10">
+        <section class="p-3">
+          <span class="text-2xl">So, you want to travel to</span> <br />
+          <b class="font-mono tracking-[0.03em] text-[6rem]">Space</b>
+          <p>
+            Let's face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we'll give you a truly out of this
+            world experience!
+          </p>
+        </section>
+        <section class="exp grid place-content-center">
+          <div class="expore mt-20">
+            <p
+              class="grid rounded-[50%] bg-white place-content-center text-3xl w-[200px] h-[200px] text-black"
+            >
+              Explore
+            </p>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

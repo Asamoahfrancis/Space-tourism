@@ -4,7 +4,7 @@
   "description": "This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Asamoahfrancis/Space-tourism/issues"
   },
-  "homepage": "https://github.com/Asamoahfrancis/Space-tourism#readme"
+  "homepage": "https://github.com/Asamoahfrancis/Space-tourism#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
 }
